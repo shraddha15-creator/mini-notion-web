@@ -1,0 +1,98 @@
+:root{
+  --border-gray: rgb(216, 216, 216);
+}
+.App {
+ font-family: 'Roboto Slab', serif;
+  text-align: center;
+  width: 60%;
+  margin: 2rem auto;
+  padding: auto;
+}
+
+.input-field {
+  background: rgb(253, 246, 243);
+  border: none;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+ font-family: 'Roboto Slab', serif;
+}
+
+.input-options {
+  border: 1px solid var(--border-gray);
+  max-width: 40%;
+  text-align: start;
+}
+
+.option-item {
+  border-bottom: 1px solid var(--border-gray);
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.H1 {
+  font-size: 2rem;
+}
+
+.H2 {
+  font-size: 1rem;
+}
+
+.Italic {
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+.headings-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading-main {
+  border: 1px solid rgb(214, 214, 214);
+  padding: 1rem;
+  background-color: rgba(243, 243, 243, 0.644);
+  border-radius: 5px;
+  text-align: center;
+  width: 10%;
+}
+
+.heading-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.heading-details {
+  font-size: 0.5rem;
+  color: gray;
+  padding-top: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  .App {
+    width: 70%;
+  }
+
+  .heading-main {
+    font-size: 0.8rem;
+  }
+
+  .heading-title {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading-main {
+    font-size: 0.5rem;
+  }
+
+  .heading-title {
+    font-size: 0.5rem;
+  }
+
+  .input-options {
+    max-width: 80%;
+  }
+}
